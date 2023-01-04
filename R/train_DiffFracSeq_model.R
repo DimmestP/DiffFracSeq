@@ -52,7 +52,7 @@ train_DiffFracSeq_model <- function(count_data, nchain = 4, ...) {
 
   # Train DiffFracSeq
   stanfit <- rstan::sampling(stanmodels$DiffFracSeq, data=stan_data, chains = nchain, ...)
-  return(stan_fit)
+  return(stanfit)
 }
 #' Compares fraction counts between conditions
 #'
