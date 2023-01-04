@@ -6,7 +6,7 @@ The normalising method uses the transcript counts of samples taken before fracti
 Below is a figure outlining two experiments that investigate differential fractionation and the ability to detect differential fractionation between DiffFracSeq and DESeq2 is compared.
 DiffFracSeq is an open source R software package that will enable even more sensitive comparisons of transcript localisation across conditions and cell types.
 
-!(diffFracSeq_diagram.png)
+![](https://github.com/DimmestP/DiffFracSeq/blob/main/diffFracSeq_diagram.png)
 
 ## Installing DiffFracSeq
 
